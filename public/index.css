@@ -1,26 +1,41 @@
 .text-color-1{
-    color:rgb(#F3EEEA)
+    color: #F3EEEA;
 }
 .text-color-2{
-    color:rgb(#EBE3D5)
+    color:#EBE3D5;
 }
 .text-color-3{
-    color:rgb(#B0A695)
+    color:#B0A695;
 }
 .text-color-4{
-    color:rgb(#776B5D)
+    color:#776B5D;
 }
 .bg-color-1{
-    background-color:rgb(#F3EEEA)
+    background-color:#F3EEEA;
 }
 .bg-color-2{
-    background-color:rgb(#EBE3D5)
+    background-color:#EBE3D5;
 }
 .bg-color-3{
-    background-color:rgb(#B0A695)
+    background-color:#B0A695;
 }
 .bg-color-4{
-    background-color:rgb(#776B5D)
+    background-color:#776B5D;
 }
 
-/* {{ asset(index.css) }}*/
+.user-icon{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #cccccc;
+}
+.user-icon:hover{
+    transform:scale(1.05,1.05);
+}
+
+/* ブラウザによって自動で余白を追加される可能性があるので*/
+.p0{
+    padding:0;
+}
+
+/* {{ asset('index.css') }}*/
