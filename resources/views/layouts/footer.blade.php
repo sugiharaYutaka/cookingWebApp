@@ -19,7 +19,7 @@
     </div>
 
     <!-- フッター -->
-    <footer class="footer fixed-bottom">
+    <footer class="footer fixed-bottom bg-color-2">
         <div class="container">
             <div class="row text-center my-1">
                 <div class="btn-group" role="group" aria-label="Button group">
@@ -33,9 +33,11 @@
     </footer>
 
     <style>
+        /* クラス適用したので必要なくなった
         .footer {
             background-color: #EBE3D5;
         }
+        */
 
         @media(max-width:750px) {
             .footericon {
