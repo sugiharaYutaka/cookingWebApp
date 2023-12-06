@@ -13,10 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
 
+/*
+|--------------------------------------------------------------------------
+| Stub Route
+|--------------------------------------------------------------------------
+*/
+Route::get('/study', function () {
+    return 'これは未実装のルートです';
+})->name('study');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/top', [App\Http\Controllers\TopController::class, 'show']);
+
+
