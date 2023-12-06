@@ -23,10 +23,10 @@
         <div class="container">
             <div class="row text-center my-1">
                 <div class="btn-group" role="group" aria-label="Button group">
-                    <button type="button" href="{{ route('study') }}" class="btn text-dark text-decoration-none"><img src="{{ asset('image/study.png') }}" style="width: 48px; height: 48px;"><br>勉強</button>
-                    <button type="button" href="{{ route('study') }}" class="btn text-dark text-decoration-none"><img src="{{ asset('image/recipe.png') }}" style="width: 48px; height: 48px;"><br>献立</button>
-                    <button type="button" href="{{ route('study') }}" class="btn text-dark text-decoration-none"><img src="{{ asset('image/SNS.png') }}" style="width: 48px; height: 48px;"><br>SNS</button>
-                    <button type="button" href="{{ route('study') }}" class="btn text-dark text-decoration-none"><img src="{{ asset('image/dictionary.png') }}" style="width: 48px; height: 48px;"><br>知識箱</button>
+                    <button type="button" href="{{ route('study') }}" class="btn text-dark text-decoration-none"><img src="{{ asset('image/study.png') }}" class="footericon"><br>勉強</button>
+                    <button type="button" href="{{ route('study') }}" class="btn text-dark text-decoration-none"><img src="{{ asset('image/recipe.png') }}" class="footericon"><br>献立</button>
+                    <button type="button" href="{{ route('study') }}" class="btn text-dark text-decoration-none"><img src="{{ asset('image/SNS.png') }}" class="footericon"><br>SNS</button>
+                    <button type="button" href="{{ route('study') }}" class="btn text-dark text-decoration-none"><img src="{{ asset('image/dictionary.png') }}" class="footericon"><br>知識箱</button>
                 </div>
             </div>
         </div>
@@ -34,7 +34,23 @@
 
     <style>
         .footer {
-            background-color: #e3d7a3;
+            background-color: #EBE3D5;
+        }
+
+        @media(max-width:750px) {
+            .footericon {
+
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        @media(min-width:751px) {
+            .footericon {
+
+                width: 40px;
+                height: 40px;
+            }
         }
     </style>
 
