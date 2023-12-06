@@ -19,7 +19,7 @@
             <div class="col-lg-2">
             </div>
             <div class="col-lg-8 d-flex justify-content-center">
-                <a><img src="{{asset('image/logo.png')}}" style="width: 288px; height: 48px;"></a>
+                <a><img class="logo" src="{{asset('image/logo.png')}}"></a>
             </div>
             <div class="col-lg-2">
                 @guest

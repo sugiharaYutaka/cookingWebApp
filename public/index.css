@@ -38,4 +38,18 @@
     padding:0;
 }
 
+/* Phone ScreenSize */
+@media(max-width:750px) {
+    .logo {
+        width: 144px;
+        height: 24px;
+    }
+}
+/* PC ScreenSize */
+@media(min-width:751px) {
+    .logo {
+        width: 288px;
+        height: 48px;
+    }
+}
 /* {{ asset('index.css') }}*/
