@@ -8,24 +8,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/index.css') }}"/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('index.css') }}"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 <body>
   <div class="header fixed-top">
-    <div class="container-fluid">
+    <div class="container-fluid p0">
       <div class="row border">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-color-2">
             <div class="col-lg-2">
             </div>
-            <div class="col-lg-8">
-                <a><img src="https://www.academic-gihara0655.com/streaming/logo1.png" style="width: 128px; height: 48px;"></a>
+            <div class="col-lg-8 d-flex justify-content-center">
+                <a><img src="{{asset('image/logo.png')}}" style="width: 288px; height: 48px;"></a>
             </div>
             <div class="col-lg-2">
                 @guest
-                <a href="#modalProfile" data-bs-toggle="modal"><img src="{{ asset() }}" class="img-thumbnail icon " style="width: 48px; height: 48px;"/></a>
+                <a href="#modalProfile" data-bs-toggle="modal"><img src="{{ asset('image/user_icon.png') }}" class="user-icon" style="width: 48px; height: 48px;"/></a>
                  @else
-                <a href="#modalProfile" data-bs-toggle="modal"><img src="{{ asset() }}" class="img-thumbnail icon " style="width: 48px; height: 48px;"/></a>
+                <a href="#modalProfile" data-bs-toggle="modal"><img src="{{ asset('') }}" class="user-icon" style="width: 48px; height: 48px;"/></a>
                  @endguest
             </div>
         </nav>
