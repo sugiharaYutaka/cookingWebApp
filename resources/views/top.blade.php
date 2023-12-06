@@ -1,4 +1,4 @@
-@extends('layouts.header')
+@extends('layouts.header-' . (Agent::isMobile() ? 'phone' : 'pc'))
 
 <div class="contets-menu body-margin-top">
     <div class="container-fluid">
