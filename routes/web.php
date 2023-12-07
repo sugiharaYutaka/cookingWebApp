@@ -37,5 +37,5 @@ Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index']
 Route::post('/chapters', [App\Http\Controllers\ChapterController::class, 'show']);
 
 Route::get('/chapter1', [App\Http\Controllers\Chapter1Controller::class, 'index'])->name('chapter1');
-Route::get('/top', [App\Http\Controllers\TopController::class, 'show']);
+Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');;
 
