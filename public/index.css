@@ -1,0 +1,55 @@
+.text-color-1{
+    color: #F3EEEA;
+}
+.text-color-2{
+    color:#EBE3D5;
+}
+.text-color-3{
+    color:#B0A695;
+}
+.text-color-4{
+    color:#776B5D;
+}
+.bg-color-1{
+    background-color:#F3EEEA;
+}
+.bg-color-2{
+    background-color:#EBE3D5;
+}
+.bg-color-3{
+    background-color:#B0A695;
+}
+.bg-color-4{
+    background-color:#776B5D;
+}
+
+.user-icon{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #cccccc;
+}
+.user-icon:hover{
+    transform:scale(1.05,1.05);
+}
+
+/* ブラウザによって自動で余白を追加される可能性があるので*/
+.p0{
+    padding:0;
+}
+
+/* Phone ScreenSize */
+@media(max-width:750px) {
+    .logo {
+        width: 144px;
+        height: 24px;
+    }
+}
+/* PC ScreenSize */
+@media(min-width:751px) {
+    .logo {
+        width: 288px;
+        height: 48px;
+    }
+}
+/* {{ asset('index.css') }}*/
