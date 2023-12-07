@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+.centerimg{
+    margin: 0;
+    padding: 0;
+}
+
+.sizeimg{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+p{
+    margin-left: 15px;
+}
+
+.tatehaba{
+    margin-bottom: 5px;
+}
+
+ul{
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.inlist{
+    list-style-type: square;
+}
+
+.inlist::marker{
+    color: red;
+}
+
