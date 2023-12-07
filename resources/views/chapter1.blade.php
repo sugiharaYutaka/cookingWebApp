@@ -47,16 +47,24 @@
 
 
 
-    <div class="row"></div>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <div class="accordion-header" id="headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        <div class="accrdion-font">材料の画像</div>
-                    </button>
-                </div>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">AAA...</div>
+        <div class="row"></div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <div class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <span class="mx-auto d-block">
+                                材料の画像
+                            </span>
+                            <!--- アコーディオンを閉じた マージン消す--->
+                            <style>.accordion-button.collapsed.text-center::after{ margin:0; }</style>
+                            <!--- アコーディオンを開いた時 マージン消す--->
+                            <style>.accordion-button.text-center::after{ margin:0; }</style>
+
+                        </button>
+                    </div>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">AAA...</div>
+                    </div>
                 </div>
             </div>
         </div>
