@@ -20,3 +20,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+// routes/web.php
+use App\Http\Controllers\ChapterController;
+
+Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index']);
+Route::post('/chapters', [App\Http\Controllers\ChapterController::class, 'show']);
