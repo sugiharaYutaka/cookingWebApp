@@ -23,10 +23,6 @@ Route::get('/', function () {
 | Stub Route
 |--------------------------------------------------------------------------
 */
-Route::get('/study', function () {
-    return 'これは未実装のルートです';
-})->name('study');
-
 Route::get('/recipe', function () {
     return 'これは未実装のルートです';
 })->name('recipe');
@@ -43,24 +39,13 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-<<<<<<< HEAD
-Route::get('/chapter1', [App\Http\Controllers\Chapter1Controller::class, 'index'])->name('chapter1');
-
-Route::get('/top', [App\Http\Controllers\TopController::class, 'show']);
-
-
-=======
 use App\Http\Controllers\ChapterController;
 
-Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index']);
+Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index'])->name('study');
 Route::post('/chapters', [App\Http\Controllers\ChapterController::class, 'show']);
 
 Route::get('/chapter1', [App\Http\Controllers\Chapter1Controller::class, 'index'])->name('chapter1');
-<<<<<<< HEAD
-Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');;
-=======
 Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');
->>>>>>> 34db0826ededd07a93376ac31b3dc803fbb9c149
 
 
 Route::get('/home', function () {
@@ -74,4 +59,3 @@ Route::get('/post', function () {
 Route::get('/profile', function () {
     return 'これは未実装のルートです';
 })->name('profile');
->>>>>>> 74174370a6aecb2a0020763faa5b80b0a3f64b05
