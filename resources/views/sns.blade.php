@@ -8,4 +8,4 @@
     </div>
 </div>
 
-@extends('layouts.footer')
+@extends('layouts.snsfooter')
