@@ -1,4 +1,11 @@
+.entirety{
+    font-size: 200%;
+}
+
+
 h1{
+    margin-top: 20px;
+    font-size: 200%;
     text-align: center;
 }
 
@@ -26,11 +33,32 @@ ul{
     margin-left: 15px;
 }
 
-.inlist{
+.inlist1{
+    list-style-type: square;
+    margin-top: 15px;
+}
+.inlist2{
+    margin-top: 15px;
     list-style-type: square;
 }
 
-.inlist::marker{
-    color: red;
+.dashi{
+    list-style-type: circle;
 }
+
+.inlist1::marker{
+    color: orange;
+}
+
+.inlist2::marker{
+    color: blue;
+}
+
+.accordion-font{
+    
+    text-align: center;
+}
+
+
+
 
