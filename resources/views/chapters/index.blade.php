@@ -17,7 +17,7 @@
                             <span class="mx-auto d-block">チャプター1</span>
                         </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
                         <div class="accordion-body">
                             <strong>チャプター1の詳細な内容がここに表示されます。</strong><br>
                             <a href="{{ route('chapter1') }}"><button type="button" class="btn btn-outline-secondary btn-sm">作り方説明</button></a>
@@ -30,7 +30,7 @@
                             <span class="mx-auto d-block">チャプター2</span>
                         </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
                         <div class="accordion-body">
                             <strong>チャプター2の詳細な内容がここに表示されます。</strong><br>
                             <a href="{{ route('chapter1') }}"><button type="button" class="btn btn-outline-secondary btn-sm">作り方説明</button></a>
@@ -43,7 +43,7 @@
                             <span class="mx-auto d-block">チャプター3</span>
                         </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
                         <div class="accordion-body">
                             <strong>チャプター3の詳細な内容がここに表示されます。</strong><br>
                             <a href="{{ route('chapter1') }}"><button type="button" class="btn btn-outline-secondary btn-sm">作り方説明</button></a>
