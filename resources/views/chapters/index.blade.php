@@ -17,7 +17,7 @@
                             <span class="mx-auto d-block">チャプター1</span>
                         </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
                         <div class="accordion-body">
                             <strong>チャプター1の詳細な内容がここに表示されます。</strong><br>
                             <a href="{{ route('chapter1') }}"><button type="button" class="btn btn-outline-secondary btn-sm">作り方説明</button></a>
@@ -30,7 +30,7 @@
                             <span class="mx-auto d-block">チャプター2</span>
                         </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
                         <div class="accordion-body">
                             <strong>チャプター2の詳細な内容がここに表示されます。</strong><br>
                             <a href="{{ route('chapter1') }}"><button type="button" class="btn btn-outline-secondary btn-sm">作り方説明</button></a>
@@ -43,13 +43,40 @@
                             <span class="mx-auto d-block">チャプター3</span>
                         </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
                         <div class="accordion-body">
                             <strong>チャプター3の詳細な内容がここに表示されます。</strong><br>
                             <a href="{{ route('chapter1') }}"><button type="button" class="btn btn-outline-secondary btn-sm">作り方説明</button></a>
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button type="button" class="accordion-button collapsed text-center" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour" style="background-color: #676F77;color: #F3EEEA;">
+                            <span class="mx-auto d-block">チャプター3</span>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
+                        <div class="accordion-body">
+                            <strong>チャプター3の詳細な内容がここに表示されます。</strong><br>
+                            <a href="{{ route('chapter1') }}"><button type="button" class="btn btn-outline-secondary btn-sm">作り方説明</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button type="button" class="accordion-button collapsed text-center" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapsefive" style="background-color: #676F77;color: #F3EEEA;">
+                            <span class="mx-auto d-block">チャプター5</span>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
+                        <div class="accordion-body">
+                            <strong>チャプター5の詳細な内容がここに表示されます。</strong><br>
+                            <a href="{{ route('chapter1') }}"><button type="button" class="btn btn-outline-secondary btn-sm">作り方説明</button></a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
