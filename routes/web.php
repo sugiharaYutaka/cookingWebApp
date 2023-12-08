@@ -49,11 +49,7 @@ Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index']
 Route::post('/chapters', [App\Http\Controllers\ChapterController::class, 'show']);
 
 Route::get('/chapter1', [App\Http\Controllers\Chapter1Controller::class, 'index'])->name('chapter1');
-<<<<<<< HEAD
-Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');;
-=======
 Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');
->>>>>>> 34db0826ededd07a93376ac31b3dc803fbb9c149
 
 
 Route::get('/home', function () {
