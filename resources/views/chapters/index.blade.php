@@ -10,10 +10,11 @@
 <body style="margin-top: 150px; margin-bottom: 150px;  background-color:#F3EEEA;">
     <div class="container-fluid">
         <div class="row mx-2">
-            <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button type="button" class="accordion-button collapsed text-center" data-bs-toggle="collapse"  aria-expanded="false"  style="background-color: #676F77;color: #F3EEEA;">
+                    <button type="button" class="accordion-button collapsed text-center" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne" style="background-color: #676F77;color: #F3EEEA;">
                             <span class="mx-auto d-block">チャプター1</span>
                         </button>
                     </h2>
