@@ -52,6 +52,9 @@
                 </div>
             </div>
         </div>
+    </div> 
+    <div style="position: fixed; bottom: 10px; right: 10px;">
+        <img src="" alt="画像が挿入されます" style="width: 100px; height: auto;">
     </div>
 </body>
 </html>
