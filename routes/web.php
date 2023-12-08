@@ -47,9 +47,11 @@ Route::post('/chapters', [App\Http\Controllers\ChapterController::class, 'show']
 Route::get('/chapter1', [App\Http\Controllers\Chapter1Controller::class, 'index'])->name('chapter1');
 Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');
 
+Route::get('/', [App\Http\Controllers\SNSController::class,'home'])->name('sns.home');
+
 
 Route::get('/home', function () {
-    return 'これは未実装のルートです';
+return 'これは未実装のルートです';
 })->name('home');
 
 Route::get('/post', function () {
