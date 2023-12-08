@@ -23,10 +23,6 @@ Route::get('/', function () {
 | Stub Route
 |--------------------------------------------------------------------------
 */
-Route::get('/study', function () {
-    return 'これは未実装のルートです';
-})->name('study');
-
 Route::get('/recipe', function () {
     return 'これは未実装のルートです';
 })->name('recipe');
@@ -52,7 +48,7 @@ Route::get('/top', [App\Http\Controllers\TopController::class, 'show']);
 
 use App\Http\Controllers\ChapterController;
 
-Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index']);
+Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index'])->name('study');
 Route::post('/chapters', [App\Http\Controllers\ChapterController::class, 'show']);
 
 Route::get('/chapter1', [App\Http\Controllers\Chapter1Controller::class, 'index'])->name('chapter1');
