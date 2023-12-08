@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <script src="https://www.academic-gihara0655.com/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <link href="https://www.academic-gihara0655.com/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://www.academic-gihara0655.com/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <link href="https://www.academic-gihara0655.com/bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
     <meta charset="UTF-8">
@@ -19,7 +19,8 @@
             <div class="col-lg-2">
             </div>
             <div class="col-lg-8 d-flex justify-content-center">
-                <a><img class="logo" src="{{asset('image/logo.png')}}"></a>
+               <!-- <a><img class="logo" src="{{asset('image/logo.png')}}"></a>-->
+                <button type="button" href="{{ route('top') }}"  style="border: none; background: transparent;"><img class="logo" src="{{asset('image/logo.png')}}"></button>
             </div>
             <div class="col-lg-2">
                 @guest

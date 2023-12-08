@@ -4,6 +4,12 @@
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'reference' => '97e0cdd9abbe5c1956b5ef6c40d9fe8d7930551b',
+<<<<<<< HEAD
+=======
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+>>>>>>> 521235e86b90c3cb8b11b9b2ecd2550211dcd37c
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -416,6 +422,12 @@
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'reference' => '97e0cdd9abbe5c1956b5ef6c40d9fe8d7930551b',
+<<<<<<< HEAD
+=======
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+>>>>>>> 521235e86b90c3cb8b11b9b2ecd2550211dcd37c
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

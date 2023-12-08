@@ -23,9 +23,17 @@ Route::get('/', function () {
 | Stub Route
 |--------------------------------------------------------------------------
 */
-Route::get('/study', function () {
+Route::get('/recipe', function () {
     return 'これは未実装のルートです';
-})->name('study');
+})->name('recipe');
+
+Route::get('/sns', function () {
+    return view("sns");
+})->name('sns');
+
+Route::get('/dictionary', function () {
+    return 'これは未実装のルートです';
+})->name('dictionary');
 
 Auth::routes();
 
@@ -33,9 +41,21 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 use App\Http\Controllers\ChapterController;
 
-Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index']);
+Route::get('/chapters', [App\Http\Controllers\ChapterController::class, 'index'])->name('study');
 Route::post('/chapters', [App\Http\Controllers\ChapterController::class, 'show']);
 
 Route::get('/chapter1', [App\Http\Controllers\Chapter1Controller::class, 'index'])->name('chapter1');
-Route::get('/top', [App\Http\Controllers\TopController::class, 'show']);
+Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');
 
+
+Route::get('/home', function () {
+    return 'これは未実装のルートです';
+})->name('home');
+
+Route::get('/post', function () {
+    return 'これは未実装のルートです';
+})->name('post');
+
+Route::get('/profile', function () {
+    return 'これは未実装のルートです';
+})->name('profile');
