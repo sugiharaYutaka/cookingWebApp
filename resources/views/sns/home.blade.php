@@ -1,7 +1,7 @@
 @extends('layouts.header-' . (Agent::isMobile() ? 'phone' : 'pc'))
 <!-- resources/views/home.blade.php -->
 
-@extends('layouts.snsapp')
+@extends('sns.snsapp')
 
 @section('title', 'SNSトップページ')
 
