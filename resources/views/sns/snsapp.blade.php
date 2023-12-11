@@ -44,50 +44,33 @@
     <!-- ...（前回のナビゲーションバー） ... -->
 
     <!-- コンテンツ -->
-    <div class="container post-container">
+    <div class="container-fluid">
         <h1>投稿一覧</h1>
         <!-- 投稿を表示するカード -->
         <div class="row">
             <div class="col-md-8 offset-md-2">
                  <!-- データベースからランダムに取得した投稿を表示する -->
-                 @foreach($randomPosts as $post)
+                @foreach($randomPosts as $post)
                     <div class="card post mb-3">
                         <div class="card-body">
                             <h5 class="card-title">{{ $post->title }}</h5>
                             <p class="card-text">{{ $post->content }}</p>
-                        <!-- いいねとリプライ（コメント）フォーム -->
-                        <div class="interaction-icons">
-                            <button class="like-btn">いいね</button>
-                            <button class="reply-btn">リプライ</button>
-                        </div>
+                            <!-- いいねとリプライ（コメント）フォーム -->
+                            <div class="interaction-icons">
+                                <button class="like-btn">いいね</button>
+                                <button class="reply-btn">リプライ</button>
+                            </div>
                         <!-- コメント入力フォーム -->
-                        <form class="comment-input" style="display: none;">
-                            <div class="mb-3">
-                                <label for="commentInput" class="form-label">コメントを入力</label>
-                                <textarea class="form-control" id="commentInput" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">投稿</button>
-                        </form>
-                    </div>
-                </div>
-                <!-- 他の投稿を表示する場合は同様の構造を追加 -->
-                <!-- <div class="card post">
-                    <div class="card-body">
-                        <h5 class="card-title">投稿タイトル2</h5>
-                        <p class="card-text">投稿内容がここに表示されます。</p>
-                        <div class="interaction-icons">
-                            <button class="like-btn">いいね</button>
-                            <button class="reply-btn">リプライ</button>
+                            <form class="comment-input" style="display: none;">
+                                <div class="mb-3">
+                                    <label for="commentInput" class="form-label">コメントを入力</label>
+                                    <textarea class="form-control" id="commentInput" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">投稿</button>
+                            </form>
                         </div>
-                        <form class="comment-input" style="display: none;">
-                            <div class="mb-3">
-                                <label for="commentInput" class="form-label">コメントを入力</label>
-                                <textarea class="form-control" id="commentInput" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">投稿</button>
-                        </form>
                     </div>
-                </div> -->
+                @endforeach
             </div>
         </div>
     </div>

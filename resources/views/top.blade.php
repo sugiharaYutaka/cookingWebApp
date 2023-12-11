@@ -202,10 +202,10 @@
     <div class="flex">
         <div class="flex-left">
             <!-- 料理チュートリアル -->
+            <p class="text-center h6">料理チュートリアル</p>
             <div class="tutorial">
                 <a href="{{ route('study') }}">
                     <p>
-                        料理チュートリアル<br>
                         ステップ0へ
                     </p>
                     <img class="tutorial-img" src="https://mpreview.aflo.com/epIejrhhrejN/afloimagemart_228170109.jpg">
@@ -217,7 +217,7 @@
 
         <div class="flex-right">
             <!-- いいね数ランキング -->
-            <p>過去30日間のいいね数</p>
+            <p class="text-center h6">過去30日間のいいね数</p>
             <div class="iine">
 
                 <hr>
@@ -226,7 +226,7 @@
                     <div class="contents">
                         <div class="text">
                             <img class="rank-img" src="https://illust-stock.com/wp-content/uploads/ranking-crown-no1.png">
-                            <p class="iine-amount">30♡</p>
+                            <button class="btn btn-sm btn-outline-danger mx-1">30♡</button>
                             <p>タイトルーーーーー</p>
                         </div>
                         <img class="img" src="https://mpreview.aflo.com/epIejrhhrejN/afloimagemart_228170109.jpg">
@@ -240,7 +240,7 @@
                     <div class="contents">
                         <div class="text">
                             <img class="rank-img" src="https://illust-stock.com/wp-content/uploads/ranking-crown-no2.png">
-                            <p class="iine-amount">13♡</p>
+                            <button class="btn btn-sm btn-outline-danger mx-1">1♡</button>
                             <p>タイトルーーーーー</p>
                         </div>
                         <img class="img" src="https://mpreview.aflo.com/n8vjjMgg0zIM/afloimagemart_214335497.jpg">
@@ -253,7 +253,7 @@
                     <div class="contents">
                         <div class="text">
                             <img class="rank-img" src="https://illust-stock.com/wp-content/uploads/ranking-crown-no3.png">
-                            <p class="iine-amount">6♡</p>
+                            <button class="btn btn-sm btn-outline-danger mx-1">3♡</button>
                             <p>タイトルーーーーー</p>
                         </div>
                         <img class="img" src="https://mpreview.aflo.com/mWcJjXEENUWI/afloimagemart_24797895.jpg">
