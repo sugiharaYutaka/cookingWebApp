@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
+@if(Agent::isMobile())
 
 <body>
 
@@ -57,5 +58,9 @@
     </style>
 
 </body>
+@else
+
+<body></body>
+@endif
 
 </html>
