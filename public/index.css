@@ -13,6 +13,7 @@
 .text-color-4 {
     color: #776B5D;
 }
+
 .text-color-gray {
     color: #676F77;
 }
@@ -32,6 +33,7 @@
 .bg-color-4 {
     background-color: #776B5D;
 }
+
 .bg-color-gray {
     background-color: #676F77;
 }
@@ -73,6 +75,7 @@
 .no-underline {
     text-decoration: none;
 }
-.body-margin-top{
+
+.body-margin-top {
     margin-top: 30vh;
 }
