@@ -62,4 +62,3 @@ Route::get('/sns/post', function () {
 Route::get('/profile', function () {
     return 'これは未実装のルートです';
 })->name('profile');
-<<<<<<< HEAD
