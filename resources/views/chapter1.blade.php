@@ -27,13 +27,15 @@
         <br>
         <div class="card">
             <div class="card-header">
-                <strong>親子丼の材料（２人分／小丼なら３人分）</strong>
+                <strong>親子丼の材料（1人前）</strong>
             </div>
             <div class="card-body">
                 <ul>
                     <li class="inlist1"><u>具材</u></li>
+                    <li>ごはん ··· 200g</li>
                     <li>鶏もも肉 ··· 100g</li>
-                    <li>卵 ··· 4個</li>
+                    <li>玉ねぎ ··· 1/4個</li>
+                    <li>卵 ··· 1~2個</li>
                     <li>三つ葉 ··· 1/4束ほど</li>
                     <li class="inlist2"><u>調味料</u></li>
                     <li class="dashi">だし汁 ··· 大さじ4</li>
@@ -137,6 +139,11 @@
             </div>
 
             <!--- 切り方 --->
+
+            <div class="youtube_wrap">
+                <iframe src="https://www.youtube.com/embed/3O4J6E7ERjc" title="YouTube video player"></iframe>
+            </div>
+
             <div class="cooking_text">
                 <br>
             </div>
