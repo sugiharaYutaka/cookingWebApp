@@ -10,7 +10,8 @@
 
     <style>
         body {
-            padding-top: 145px;
+            padding-top: 75px;
+            padding-bottom: 80px;
         }
 
         .Container {
@@ -65,48 +66,116 @@
         .flex {
             display: flex;
             flex-direction: row;
+            flex: 35%;
         }
 
-        .tutorial img {
-            width: 95%;
-            border-radius: 10px;
-        }
-
-        .flex>.tutorial {
-            margin: 5px 5px 5px;
-            border: #000 solid 1px;
-            text-align: center;
-            flex: 50%;
-        }
-
-        .flex>.iine {
-            margin: 5px 5px 5px;
-            border: #d0d solid 1px;
-            text-align: center;
-            flex: 50%;
-        }
-
-
-
-        .flex-iine {
+        .flex-left {
             display: flex;
             flex-direction: column;
         }
 
-        .flex-iine .first {
-            border: #00d solid 1px;
+
+
+
+        .flex .flex-left .tutorial {
+            margin: 5px 5px 5px;
+            text-align: center;
+            padding: 0.5em 1em;
+            background: #f0f7ff;
+            border: dashed 2px #5b8bd0;
+            /*点線*/
         }
 
-        .flex-iine .contents {
+        .flex .flex-left .tutorial p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .flex .flex-left .tutorial img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+
+
+
+
+        .flex .flex-left .iine {
+            margin: 5px 5px 5px;
+            text-align: center;
+        }
+
+
+
+
+
+        .iine {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .iine hr {
+            margin: 8px 0px;
+        }
+
+        .iine .contents {
             display: flex;
             flex-direction: row;
-            border: #0f0 solid 1px;
-            flex: 50%;
+            justify-content: space-between;
         }
 
-        .flex-iine img {
-            width: 95%;
+        .iine .contents .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .iine p {
+            padding-left: 2px;
+            text-align: left;
+        }
+
+        .iine .img {
+            height: 100%;
+            width: 60%;
             border-radius: 10px;
+        }
+
+
+
+
+
+        .circle {
+            position: absolute;
+            margin: 5px 22%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 35px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .rank-img {
+            position: absolute;
+            margin: 0px 21%;
+            transform: translateY(-50%);
+            width: 50px;
+        }
+
+
+
+
+        .iine .iine-amount {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #f1443e;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #f1443e;
+            font-size: 1em;
         }
     </style>
 
@@ -131,47 +200,67 @@
     <hr>
 
     <div class="flex">
-        <!-- 料理チュートリアル -->
-        <div class="tutorial">
-            <a href="https://www.google.co.jp/">
-                <p>
-                    料理チュートリアル<br>
-                    ステップ0へ
-                </p>
-                <img class="tutorial-img" src="https://mpreview.aflo.com/epIejrhhrejN/afloimagemart_228170109.jpg">
-            </a>
+        <div class="flex-left">
+            <!-- 料理チュートリアル -->
+            <p class="text-center h6">料理チュートリアル</p>
+            <div class="tutorial">
+                <a href="{{ route('study') }}">
+                    <p>
+                        ステップ0へ
+                    </p>
+                    <img class="tutorial-img" src="https://mpreview.aflo.com/epIejrhhrejN/afloimagemart_228170109.jpg">
+                </a>
+            </div>
+            <!-- 料理チュートリアル end -->
         </div>
-        <!-- 料理チュートリアル end -->
 
 
-        <!-- いいね数ランキング -->
-        <div class="iine">
-            <p>過去30日間のいいね数</p>
-            <div class="flex-iine">
+        <div class="flex-right">
+            <!-- いいね数ランキング -->
+            <p class="text-center h6">過去30日間のいいね数</p>
+            <div class="iine">
+
+                <hr>
+
                 <div class="first">
                     <div class="contents">
-                        <p>#1</p>
-                        <img src="https://mpreview.aflo.com/epIejrhhrejN/afloimagemart_228170109.jpg">
+                        <div class="text">
+                            <img class="rank-img" src="https://illust-stock.com/wp-content/uploads/ranking-crown-no1.png">
+                            <button class="btn btn-sm btn-outline-danger mx-1">30♡</button>
+                            <p>タイトルーーーーー</p>
+                        </div>
+                        <img class="img" src="https://mpreview.aflo.com/epIejrhhrejN/afloimagemart_228170109.jpg">
 
                     </div>
                 </div>
+
+                <hr>
+
                 <div class="second">
                     <div class="contents">
-                        <p>#2</p>
-                        <img src="https://mpreview.aflo.com/epIejrhhrejN/afloimagemart_228170109.jpg">
-
+                        <div class="text">
+                            <img class="rank-img" src="https://illust-stock.com/wp-content/uploads/ranking-crown-no2.png">
+                            <button class="btn btn-sm btn-outline-danger mx-1">1♡</button>
+                            <p>タイトルーーーーー</p>
+                        </div>
+                        <img class="img" src="https://mpreview.aflo.com/n8vjjMgg0zIM/afloimagemart_214335497.jpg">
                     </div>
                 </div>
+
+                <hr>
+
                 <div class="third">
                     <div class="contents">
-                        <p>#3</p>
-                        <img src="https://mpreview.aflo.com/epIejrhhrejN/afloimagemart_228170109.jpg">
-
+                        <div class="text">
+                            <img class="rank-img" src="https://illust-stock.com/wp-content/uploads/ranking-crown-no3.png">
+                            <button class="btn btn-sm btn-outline-danger mx-1">3♡</button>
+                            <p>タイトルーーーーー</p>
+                        </div>
+                        <img class="img" src="https://mpreview.aflo.com/mWcJjXEENUWI/afloimagemart_24797895.jpg">
                     </div>
                 </div>
             </div>
             <!-- いいね数ランキング end -->
-
         </div>
 
 </body>

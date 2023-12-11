@@ -2,10 +2,20 @@
     font-size: 200%;
 }
 
-
 h1{
     margin-top: 20px;
     font-size: 200%;
+    text-align: center;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 105%;
+    text-align: center;
+}
+
+h3{
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -55,10 +65,43 @@ ul{
 }
 
 .accordion-font{
-    
     text-align: center;
 }
 
+.youtube_wrap{
+    padding-top: 56.25%;
+    width: 100%;
+    position: relative;
+}
 
+.youtube_wrap iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
+.textBox {
+    border: 2px solid darkorange;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    position: relative;
+    }
+    
+    .textBox::before {
+    background-color: #fff;
+    color: darkorange;
+    content: "POINT";
+    
+    font-weight: bold;
+    left: 30px;
+    padding: 3px 10px;
+    position: absolute;
+    top: -30px;
+    }
 
+    .cooking_text{
+        font-size: 120%;
+    }

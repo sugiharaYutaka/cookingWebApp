@@ -1,5 +1,6 @@
 @extends('layouts.header-' . (Agent::isMobile() ? 'phone' : 'pc'))
 
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -62,6 +63,8 @@
         </div>
     </div>
 </div>
+=======
+>>>>>>> 569f3d296303ec2c9107b3c64a29c7a8731cbe23
 
 
 @extends('layouts.footer')
