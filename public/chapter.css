@@ -14,11 +14,6 @@ h2{
     text-align: center;
 }
 
-h3{
-    margin-top: 20px;
-    text-align: center;
-}
-
 .centerimg{
     margin: 0;
     padding: 0;
@@ -87,10 +82,11 @@ ul{
     border-radius: 5px;
     padding: 30px;
     margin-top: 30px;
+    margin-bottom: 40px;
     position: relative;
     }
     
-    .textBox::before {
+.textBox::before {
     background-color: #fff;
     color: darkorange;
     content: "POINT";
@@ -100,8 +96,9 @@ ul{
     padding: 3px 10px;
     position: absolute;
     top: -30px;
-    }
+}
 
-    .cooking_text{
+.cooking_text{
         font-size: 120%;
-    }
+}
+
