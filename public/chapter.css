@@ -35,14 +35,20 @@ p{
 
 ul{
     margin-top: -10px;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 .inlist1{
     list-style-type: square;
     margin-top: 15px;
 }
+
 .inlist2{
+    margin-top: 15px;
+    list-style-type: square;
+}
+
+.inlist3{
     margin-top: 15px;
     list-style-type: square;
 }
@@ -57,6 +63,10 @@ ul{
 
 .inlist2::marker{
     color: blue;
+}
+
+.inlist3::marker{
+    color: green;
 }
 
 .accordion-font{
@@ -99,6 +109,7 @@ ul{
 }
 
 .cooking_text{
-        font-size: 120%;
+    font-size: 120%;
+    margin-bottom: 50px;
 }
 
