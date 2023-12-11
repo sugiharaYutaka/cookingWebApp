@@ -28,7 +28,7 @@ Route::get('/recipe', function () {
 })->name('recipe');
 
 Route::get('/sns', function () {
-    return view("sns");
+    return view('sns/snsapp');
 })->name('sns');
 
 Route::get('/dictionary', function () {
@@ -57,8 +57,8 @@ Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('t
 Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');
 
 
-Route::get('/post', function () {
-    return 'これは未実装のルートです';
+Route::get('/sns/post', function () {
+    return view('sns/snspost');
 })->name('post');
 
 Route::get('/profile', function () {

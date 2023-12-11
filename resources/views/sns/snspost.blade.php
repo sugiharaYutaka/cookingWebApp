@@ -46,11 +46,11 @@
                         <!-- ここにフォームやコンテンツを追加 -->
                         <!-- Image Upload Form -->
                         <button type="button" style="border: none; background: none;">テキストを入力</button>
-                        <form method="POST" action="process.php">
+                        <form method="POST" action=""> <!-- 後でactionの中を書く -->
                             <textarea id="userInput" name="userInput"></textarea>
                         </form>
 
-                        <form method="POST" action="{{ route('post.store') }}" enctype="multipart/form-data">
+                        <form method="POST" action="" enctype="multipart/form-data"> <!-- 後でactionの中を書く -->
                             @csrf
                             <div class="mb-3">
                                 <label for="image" class="form-label">Select Image</label>
@@ -64,8 +64,6 @@
             </div>
         </div>
     </div>
-    =======
-    >>>>>>> 569f3d296303ec2c9107b3c64a29c7a8731cbe23
 
 
-    @extends('layouts.footer')
+    @extends('layouts.snsfooter')
