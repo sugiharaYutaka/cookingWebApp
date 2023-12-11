@@ -64,9 +64,3 @@ Route::get('/post', function () {
 Route::get('/profile', function () {
     return 'これは未実装のルートです';
 })->name('profile');
-
-<<<<<<< HEAD
-Route::get('/post/create', [PostController::class, 'create'])->name('post.create');
-Route::post('/post/store', [PostController::class, 'store'])->name('post.store');
-=======
->>>>>>> 569f3d296303ec2c9107b3c64a29c7a8731cbe23
