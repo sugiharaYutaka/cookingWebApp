@@ -27,19 +27,26 @@
         <br>
         <div class="card">
             <div class="card-header">
-                <strong>親子丼の材料（２人分／小丼なら３人分）</strong>
+                <strong>親子丼の材料（１人前）</strong>
             </div>
             <div class="card-body">
                 <ul>
                     <li class="inlist1"><u>具材</u></li>
+                    <li>ごはん ··· 200g</li>
                     <li>鶏もも肉 ··· 100g</li>
-                    <li>卵 ··· 4個</li>
-                    <li>三つ葉 ··· 1/4束ほど</li>
+                    <li>玉ねぎ ··· 1/4個</li>
+                    <li>卵 ··· 1~2個</li>
+
                     <li class="inlist2"><u>調味料</u></li>
-                    <li class="dashi">だし汁 ··· 大さじ4</li>
+                    <li class="dashi">水 ··· 100ml</li>
+                    <li class="dashi">しょうゆ ··· 大さじ1</li>
                     <li class="dashi">みりん ··· 大さじ4</li>
-                    <li class="dashi">醤油 ··· 大さじ2~2と1/2</li>
-                    <li class="dashi">砂糖 ··· 小さじ2</li>
+                    <li class="dashi">料理酒 ··· 大さじ1</li>
+                    <li class="dashi">砂糖 ··· 大さじ1/2</li>
+
+                    <li class="inlist3"><u>トッピング</u></li>
+                    <li>三つ葉 ··· 1/4束ほど（あれば色どりが良くなります）</li>
+                    
                 </ul>
             </div>
         </div>
@@ -92,22 +99,42 @@
             <div class="youtube_wrap">
                 <iframe src="https://www.youtube.com/embed/3O4J6E7ERjc" title="YouTube video player"></iframe>
             </div>
+
             <div class="cooking_text">
                 <br>まずは、動画の通りまな板と包丁を作業スペースに置きましょう。
                 <br>ボールに玉ねぎ1個が漬かるくらいの水をため、玉ねぎを5分～10分程度漬けておきましょう。<br><br>
             </div>
+
             <div class="textBox">玉ねぎを水に漬けておくと、皮が柔らかくなって剥きやすくなります。</div>
         </div>
     </div>
 
     <div class="card">
         <div class="card-header">
-            STEP2 鶏もも肉を切ろう
+            STEP2 三つ葉を切ろう
         </div>
         <div class="card-body">
             <div class="youtube_wrap">
                 <iframe src="https://www.youtube.com/embed/3O4J6E7ERjc" title="YouTube video player"></iframe>
             </div>
+
+            <div class="cooking_text">
+                <br>まずは、根元を切り落としましょう。
+                <br>3cmくらいの幅で切ったら、別の器に置いておきましょう。
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            STEP3 鶏もも肉を切ろう
+        </div>
+        <div class="card-body">
+            <div class="youtube_wrap">
+                <iframe src="https://www.youtube.com/embed/3O4J6E7ERjc" title="YouTube video player"></iframe>
+            </div>
+
             <div class="cooking_text">
                 <br>鶏もも肉は小さめの一口大に切りましょう。
                 <br>1cm～2cmくらいを目安にすると良いと思います。
@@ -117,7 +144,7 @@
 
     <div class="card">
         <div class="card-header">
-            STEP3 玉ねぎを切ろう
+            STEP4 玉ねぎを切ろう
         </div>
         <div class="card-body">
             <div class="youtube_wrap">
@@ -131,42 +158,92 @@
                 <br>2.皮を押さえてめくります。
                 <br>反対側も同じようにします。
             </div>
+
             <div class="textBox">
                 根本と頭を切り落とすときに皮をめくることによって、
                 <br>皮の面積が分断され、剥きやすくなります。
             </div>
 
             <!--- 切り方 --->
+
+            <div class="youtube_wrap">
+                <iframe src="https://www.youtube.com/embed/3O4J6E7ERjc" title="YouTube video player"></iframe>
+            </div>
+
             <div class="cooking_text">
-                <br>
+                <br>では、皮をむいた玉ねぎを切っていきましょう。
+                <br>1/4の大きさに切り、5mm幅くらいで包丁を真っすぐ入れて切りましょう。
             </div>
+
             <div class="textBox">
-                
+                難しいと感じたら幅は広くても大丈夫です。
+                <br>ゆっくり切っていきましょう。
             </div>
         </div>
     </div>
 
     <div class="card">
         <div class="card-header">
-            STEP4
+            STEP5 つゆを沸かそう
         </div>
         <div class="card-body">
             <div class="youtube_wrap">
                 <iframe src="https://www.youtube.com/embed/3O4J6E7ERjc" title="YouTube video player"></iframe>
+            </div>
+
+            <div class="cooking_text">
+                <br>フライパンに水を入れ、火をつけます。
+                <br>水以外の調味料も順番に入れていき、最後に玉ねぎも入れます。
+                <br>煮立ったら鶏肉も入れましょう。
+            </div>
+
+            <div class="textBox">
+                火はずっと中火で大丈夫です。
             </div>
         </div>
     </div>
 
     <div class="card">
         <div class="card-header">
-            STEP5
+            STEP6 卵で閉じよう
         </div>
         <div class="card-body">
             <div class="youtube_wrap">
                 <iframe src="https://www.youtube.com/embed/3O4J6E7ERjc" title="YouTube video player"></iframe>
             </div>
+
+            <div class="cooking_text">
+                <br>鶏肉にも火が通ったら、溶き卵の半量を加えます。
+                <br>3秒くらいかき混ぜた後、蓋をして火を弱火にします。
+                <br>1分経ったら蓋を開け、残りの溶き卵も加えて、中火に戻します。
+                <br>10秒ほど経ったら火を止めて、器にごはんをよそいましょう。
+            </div>
+
+            <div class="textBox">
+                溶き卵を入れた後は、あまり混ぜすぎないようにすることで<br>
+                とろふわ食感に仕上がります。
+            </div>
         </div>
     </div>
+
+    <div class="card">
+        <div class="card-header">
+            STEP7 完成!!!
+        </div>
+        <div class="card-body">
+            <div class="youtube_wrap">
+                <iframe src="https://www.youtube.com/embed/3O4J6E7ERjc" title="YouTube video player"></iframe>
+            </div>
+
+            <div class="cooking_text">
+                <br>ごはんの上に盛りつけましょう。
+                <br>三つ葉を用意している場合は、三つ葉を乗せて完成です。
+            </div>
+
+        </div>
+    </div>
+
+    <button type="button"><a href="{{ route('post') }}">SNSに投稿してみよう!</a></button>
 
 
 </div>

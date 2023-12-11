@@ -14,11 +14,6 @@ h2{
     text-align: center;
 }
 
-h3{
-    margin-top: 20px;
-    text-align: center;
-}
-
 .centerimg{
     margin: 0;
     padding: 0;
@@ -40,14 +35,20 @@ p{
 
 ul{
     margin-top: -10px;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 .inlist1{
     list-style-type: square;
     margin-top: 15px;
 }
+
 .inlist2{
+    margin-top: 15px;
+    list-style-type: square;
+}
+
+.inlist3{
     margin-top: 15px;
     list-style-type: square;
 }
@@ -62,6 +63,10 @@ ul{
 
 .inlist2::marker{
     color: blue;
+}
+
+.inlist3::marker{
+    color: green;
 }
 
 .accordion-font{
@@ -87,10 +92,11 @@ ul{
     border-radius: 5px;
     padding: 30px;
     margin-top: 30px;
+    margin-bottom: 40px;
     position: relative;
     }
     
-    .textBox::before {
+.textBox::before {
     background-color: #fff;
     color: darkorange;
     content: "POINT";
@@ -100,8 +106,10 @@ ul{
     padding: 3px 10px;
     position: absolute;
     top: -30px;
-    }
+}
 
-    .cooking_text{
-        font-size: 120%;
-    }
+.cooking_text{
+    font-size: 120%;
+    margin-bottom: 50px;
+}
+

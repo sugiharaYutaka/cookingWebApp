@@ -27,9 +27,6 @@ Route::get('/recipe', function () {
     return 'これは未実装のルートです';
 })->name('recipe');
 
-Route::get('/sns', function () {
-    return view("sns");
-})->name('sns');
 
 Route::get('/dictionary', function () {
     return 'これは未実装のルートです';
@@ -39,6 +36,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\SNS\HomeController::class, 'index'])->name('home');
 
+Route::get('/sns', [App\Http\Controllers\SNS\HomeController::class, 'index'])->name('sns');
 
 Route::get('/chapter1', [App\Http\Controllers\Chapter1Controller::class, 'index'])->name('chapter1');
 
@@ -57,11 +55,10 @@ Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('t
 Route::get('/top', [App\Http\Controllers\TopController::class, 'show'])->name('top');
 
 
-Route::get('/post', function () {
-    return 'これは未実装のルートです';
+Route::get('/sns/post', function () {
+    return view('sns/snspost');
 })->name('post');
 
 Route::get('/profile', function () {
     return 'これは未実装のルートです';
 })->name('profile');
-
