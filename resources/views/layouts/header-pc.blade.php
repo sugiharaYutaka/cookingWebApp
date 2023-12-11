@@ -33,5 +33,6 @@
       </div>
     </div>
   </div>
+</body>
 
   @extends('layouts.modal')
