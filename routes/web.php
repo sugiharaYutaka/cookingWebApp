@@ -60,3 +60,6 @@ Route::get('/post', function () {
 Route::get('/profile', function () {
     return 'これは未実装のルートです';
 })->name('profile');
+
+Route::get('/post/create', [PostController::class, 'create'])->name('post.create');
+Route::post('/post/store', [PostController::class, 'store'])->name('post.store');
