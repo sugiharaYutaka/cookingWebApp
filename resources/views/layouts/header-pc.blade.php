@@ -16,13 +16,29 @@
     <div class="container-fluid p0">
       <div class="row border">
         <nav class="navbar navbar-expand-lg navbar-light bg-light bg-color-2">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-lg-8 d-flex justify-content-center">
+            <!--<div class="col-lg-2">
+            </div>-->
+            <div class="col-2 d-flex">
                 <!--<a><img class="logo" src="{{asset('image/logo.png')}}"></a>-->
                 <button type="button"  style="border: none; background: transparent;" class="btn"><a href="{{ route('top') }}"><img class="logo" src="{{asset('image/logo.png')}}"></a></button>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-1">
+            <button type="button" class="btn"><a href="{{ route('top') }}" class="no-underline text-dark"><img src="{{ asset('image/cooking.png') }}" class="headerbotton"><br>通常モード</a></button>
+            </div>
+            <div class="col-lg-1">
+            <button type="button" class="btn"><a href="{{ route('home') }}" class="no-underline text-dark"><img src="{{ asset('image/home.png') }}" class="headerbotton"><br>ホーム</a></button>
+            </div>
+            <div class="col-lg-1">
+            <button type="button" class="btn"><a href="{{ route('post') }}" class="no-underline text-dark"><img src="{{ asset('image/post.png') }}" class="headerbotton"><br>投稿</a></button>
+            </div>
+            <div class="col-lg-1">
+            <button type="button" class="btn"><a href="{{ route('profile') }}" class="no-underline text-dark"><img src="{{ asset('image/profile.png') }}" class="headerbotton"><br>プロフィール</a></button>
+            </div>
+            <div class="col-lg-4">
+            </div>
+            <div class="col-1">
                 @guest
                 <a href="#modalProfile" data-bs-toggle="modal"><img src="{{ asset('image/user_icon.png') }}" class="user-icon" style="width: 48px; height: 48px;"/></a>
                  @else
@@ -33,6 +49,24 @@
       </div>
     </div>
   </div>
+  <style>
+
+        @media(max-width:750px) {
+            .headerbotton {
+
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        @media(min-width:751px) {
+            .headerbotton {
+
+                width: 32px;
+                height: 32px;
+            }
+        }
+    </style>
 </body>
 
   @extends('layouts.modal')
