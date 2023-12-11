@@ -62,3 +62,11 @@ Route::get('/sns/post', function () {
 Route::get('/profile', function () {
     return 'これは未実装のルートです';
 })->name('profile');
+
+Route::get('/debug',          [App\Http\Controllers\DebugController::class, 'show'])->name('debug');
+Route::post('/debugRegister', [App\Http\Controllers\DebugController::class, 'getRegister'])->name('debugRegister');
+Route::post('/debugPost',     [App\Http\Controllers\DebugController::class, 'getPost'])->name('debugPost');
+Route::post('/debugReply',    [App\Http\Controllers\DebugController::class, 'getReply'])->name('debugReply');
+Route::post('/debugProfile',  [App\Http\Controllers\DebugController::class, 'getProfile'])->name('debugProfile');
+Route::post('/debugFollow',   [App\Http\Controllers\DebugController::class, 'getFollow'])->name('debugFollow');
+Route::post('/debugChapter',  [App\Http\Controllers\DebugController::class, 'getChapter'])->name('debugChapter');
