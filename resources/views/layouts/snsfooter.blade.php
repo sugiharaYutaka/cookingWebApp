@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
+@if(Agent::isMobile())
 
 <body>
 
@@ -34,10 +35,10 @@
 
     <style>
         /* クラス適用したので必要なくなった
-        .footer {
-            background-color: #EBE3D5;
-        }
-        */
+            .footer {
+                background-color: #EBE3D5;
+            }
+            */
 
         @media(max-width:750px) {
             .footericon {
@@ -57,5 +58,7 @@
     </style>
 
 </body>
+@else
+@endif
 
 </html>
