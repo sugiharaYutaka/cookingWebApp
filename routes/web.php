@@ -70,3 +70,4 @@ Route::post('/debugReply',    [App\Http\Controllers\DebugController::class, 'get
 Route::post('/debugProfile',  [App\Http\Controllers\DebugController::class, 'getProfile'])->name('debugProfile');
 Route::post('/debugFollow',   [App\Http\Controllers\DebugController::class, 'getFollow'])->name('debugFollow');
 Route::post('/debugChapter',  [App\Http\Controllers\DebugController::class, 'getChapter'])->name('debugChapter');
+Route::post('/debugFollowers',  [App\Http\Controllers\FollowController::class, 'getFollow'])->name('debugFollowers');

@@ -64,5 +64,13 @@
         <input type="text" name="progress" placeholder="チャプターの進捗状況(int)" required><br>
         <input type="submit" value="登録"><br>
     </form>
+
+    <form action="{{ route('debugFollowers') }}" method="POST">
+        @csrf
+        <span>chapterテーブルにINSERTする</span><br>
+        <input type="text" name="email1" placeholder="email" required><br>
+        <input type="text" name="emaill2" placeholder="email2" required><br>
+        <input type="submit" value="登録"><br>
+    </form>
 </body>
 </html>
